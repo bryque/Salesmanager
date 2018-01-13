@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/item_inicio"
+            android:checked="true"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/item_home" />
+        <item
+            android:id="@+id/item_sales"
+            android:icon="@drawable/ic_shopping_cart_black_24dp"
+            android:title="@string/item_sales" />
+        <item
+            android:id="@+id/item_graphics"
+            android:icon="@drawable/ic_multiline_chart_black_24dp"
+            android:title="@string/item_graphics" />
+        <item
+            android:id="@+id/item_configuration"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="@string/item_configuration" />
+    </group>
+
+</menu>
